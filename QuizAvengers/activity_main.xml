@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/night_sky"
+    tools:context="com.example.android.quizavengers.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="380dp"
+        android:src="@drawable/avengers" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title"
+        android:layout_marginTop="16dp"
+        android:textSize="28sp"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:textAlignment="center"
+        android:textColor="#E3F2FD"
+        />
+    <Button
+        android:id="@+id/next"
+        android:layout_width="160dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="110dp"
+        android:onClick="clickNext"
+        android:text="@string/button_enter"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="#E3F2FD"
+        style="?android:attr/borderlessButtonStyle"/>
+
+
+</LinearLayout>

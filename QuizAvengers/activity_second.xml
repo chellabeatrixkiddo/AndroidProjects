@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/night_sky"
+    tools:context="com.example.android.quizavengers.SecondActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:textSize="20sp"
+                android:text="@string/question_1"
+                android:textColor="#E3F2FD" />
+
+            <RadioGroup
+                android:id="@+id/ques1_grp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/ques1_rb1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nova Corps"
+                    android:clickable="true"
+                    android:textColor="#E3F2FD" />
+
+                <RadioButton
+                    android:id="@+id/ques1_rb2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="The Collector"
+                    android:clickable="true"
+                    android:textColor="#E3F2FD" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textSize="20sp"
+                android:text="@string/question_2"
+                android:textColor="#E3F2FD" />
+
+            <RadioGroup
+                android:id="@+id/ques2_grp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/ques2_rb1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Avengers"
+                    android:clickable="true"
+                    android:textColor="#E3F2FD" />
+
+                <RadioButton
+                    android:id="@+id/ques2_rb2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Thor"
+                    android:clickable="true"
+                    android:textColor="#E3F2FD" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textSize="20sp"
+                android:text="@string/question_3"
+                android:textColor="#E3F2FD" />
+
+            <EditText
+                android:id="@+id/ques3_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Answer"
+                android:textColor="#E3F2FD" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textSize="20sp"
+                android:text="@string/question_4"
+                android:textColor="#E3F2FD" />
+
+            <CheckBox
+                android:id="@+id/ques4_cb1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Taser Web"
+                android:textColor="#E3F2FD"
+                android:clickable="true"/>
+
+            <CheckBox
+                android:id="@+id/ques4_cb2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Splitter Web"
+                android:textColor="#E3F2FD"
+                android:clickable="true"/>
+
+            <CheckBox
+                android:id="@+id/ques4_cb3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Twister Web"
+                android:textColor="#E3F2FD"
+                android:clickable="true"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textSize="20sp"
+                android:text="@string/question_5"
+                android:textColor="#E3F2FD" />
+
+            <EditText
+                android:id="@+id/ques5_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Answer"
+                android:textColor="#E3F2FD" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/next"
+            android:layout_width="160dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="20dp"
+            android:onClick="submitQuiz"
+            android:text="@string/button_submit"
+            android:textColor="@color/colorPrimaryDark"
+            android:background="#E3F2FD"
+            style="?android:attr/borderlessButtonStyle"/>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">QuizAvengers</string>
+    <string name="title">The Ultimate Avengers Quiz!</string>
+    <string name="button_enter">Enter Quiz</string>
+    <string name="question_1">1. Who has the Power Stone?</string>
+    <string name="question_2">2. In which movie did Hawk Eye make his first appearance?</string>
+    <string name="question_3">3. Expand S.H.I.E.L.D.</string>
+    <string name="question_4">4. Which among the following are part of Spider-Man\'s web shooting options?</string>
+    <string name="question_5">5. What is the name of the Facility where Black Widow was trained?</string>
+    <string name="button_submit">Submit Quiz</string>
+</resources>
